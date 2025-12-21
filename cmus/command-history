@@ -1,7 +1,0 @@
-q
-add /mnt/c/Users/AddisonFischer/Music
-add $windows_home/Music
-add ~/Music
-add doom.mp3
-add $windows_home/Music/doom.mp3
-add ~/Music/doom.mp3
