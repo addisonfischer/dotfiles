@@ -133,7 +133,7 @@ _G.packer_plugins = {
     url = "https://github.com/EdenEast/nightfox.nvim"
   },
   ["none-ls.nvim"] = {
-    config = { "\27LJ\2\n@\0\0\3\0\5\0\a6\0\0\0009\0\1\0009\0\2\0009\0\3\0005\2\4\0B\0\2\1K\0\1\0\1\0\1\nasync\1\vformat\bbuf\blsp\bvim­\2\1\0\6\0\17\0\0236\0\0\0'\2\1\0B\0\2\0029\1\2\0005\3\6\0004\4\3\0009\5\3\0009\5\4\0059\5\5\5>\5\1\4=\4\a\3B\1\2\0016\1\b\0009\1\t\0019\1\n\1'\3\v\0005\4\r\0005\5\f\0=\5\14\0043\5\15\0=\5\16\4B\1\3\1K\0\1\0\rcallback\0\fpattern\1\0\2\fpattern\0\rcallback\0\1\t\0\0\t*.js\t*.ts\n*.jsx\n*.tsx\v*.json\n*.css\v*.html\t*.md\16BufWritePre\24nvim_create_autocmd\bapi\bvim\fsources\1\0\1\fsources\0\rprettier\15formatting\rbuiltins\nsetup\fnull-ls\frequire\0" },
+    config = { "\27LJ\2\n@\0\0\3\0\5\0\a6\0\0\0009\0\1\0009\0\2\0009\0\3\0005\2\4\0B\0\2\1K\0\1\0\1\0\1\nasync\1\vformat\bbuf\blsp\bvim­\2\1\0\6\0\17\0\0236\0\0\0'\2\1\0B\0\2\0029\1\2\0005\3\6\0004\4\3\0009\5\3\0009\5\4\0059\5\5\5>\5\1\4=\4\a\3B\1\2\0016\1\b\0009\1\t\0019\1\n\1'\3\v\0005\4\r\0005\5\f\0=\5\14\0043\5\15\0=\5\16\4B\1\3\1K\0\1\0\rcallback\0\fpattern\1\0\2\rcallback\0\fpattern\0\1\t\0\0\t*.js\t*.ts\n*.jsx\n*.tsx\v*.json\n*.css\v*.html\t*.md\16BufWritePre\24nvim_create_autocmd\bapi\bvim\fsources\1\0\1\fsources\0\rprettier\15formatting\rbuiltins\nsetup\fnull-ls\frequire\0" },
     loaded = true,
     path = "/home/addison/.local/share/nvim/site/pack/packer/start/none-ls.nvim",
     url = "https://github.com/nvimtools/none-ls.nvim"
@@ -220,14 +220,14 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: none-ls.nvim
-time([[Config for none-ls.nvim]], true)
-try_loadstring("\27LJ\2\n@\0\0\3\0\5\0\a6\0\0\0009\0\1\0009\0\2\0009\0\3\0005\2\4\0B\0\2\1K\0\1\0\1\0\1\nasync\1\vformat\bbuf\blsp\bvim­\2\1\0\6\0\17\0\0236\0\0\0'\2\1\0B\0\2\0029\1\2\0005\3\6\0004\4\3\0009\5\3\0009\5\4\0059\5\5\5>\5\1\4=\4\a\3B\1\2\0016\1\b\0009\1\t\0019\1\n\1'\3\v\0005\4\r\0005\5\f\0=\5\14\0043\5\15\0=\5\16\4B\1\3\1K\0\1\0\rcallback\0\fpattern\1\0\2\fpattern\0\rcallback\0\1\t\0\0\t*.js\t*.ts\n*.jsx\n*.tsx\v*.json\n*.css\v*.html\t*.md\16BufWritePre\24nvim_create_autocmd\bapi\bvim\fsources\1\0\1\fsources\0\rprettier\15formatting\rbuiltins\nsetup\fnull-ls\frequire\0", "config", "none-ls.nvim")
-time([[Config for none-ls.nvim]], false)
 -- Config for: supermaven-nvim
 time([[Config for supermaven-nvim]], true)
 try_loadstring("\27LJ\2\nA\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\20supermaven-nvim\frequire\0", "config", "supermaven-nvim")
 time([[Config for supermaven-nvim]], false)
+-- Config for: none-ls.nvim
+time([[Config for none-ls.nvim]], true)
+try_loadstring("\27LJ\2\n@\0\0\3\0\5\0\a6\0\0\0009\0\1\0009\0\2\0009\0\3\0005\2\4\0B\0\2\1K\0\1\0\1\0\1\nasync\1\vformat\bbuf\blsp\bvim­\2\1\0\6\0\17\0\0236\0\0\0'\2\1\0B\0\2\0029\1\2\0005\3\6\0004\4\3\0009\5\3\0009\5\4\0059\5\5\5>\5\1\4=\4\a\3B\1\2\0016\1\b\0009\1\t\0019\1\n\1'\3\v\0005\4\r\0005\5\f\0=\5\14\0043\5\15\0=\5\16\4B\1\3\1K\0\1\0\rcallback\0\fpattern\1\0\2\rcallback\0\fpattern\0\1\t\0\0\t*.js\t*.ts\n*.jsx\n*.tsx\v*.json\n*.css\v*.html\t*.md\16BufWritePre\24nvim_create_autocmd\bapi\bvim\fsources\1\0\1\fsources\0\rprettier\15formatting\rbuiltins\nsetup\fnull-ls\frequire\0", "config", "none-ls.nvim")
+time([[Config for none-ls.nvim]], false)
 -- Load plugins in order defined by `after`
 time([[Sequenced loading]], true)
 vim.cmd [[ packadd nvim-treesitter ]]
